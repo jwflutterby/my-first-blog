@@ -1,3 +1,13 @@
 myvenv\Scripts\activate
 python manage.py runserver
+python manage.py migrate blog
+https://github.com/jwflutterby/my-first-blog.git
 
+git status
+git add --all .
+git commit -m "Changed the HTML for the site."
+git push
+
+
+cd ~/jwzoo.pythonanywhere.com
+git pull
